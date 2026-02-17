@@ -1,42 +1,38 @@
 export const clinic = {
-  name: "CENTRO DE ESTETICA AVANZADA LUMIÉRE",
+  name: "Centro de Estética Avanzada Luisa Cobo",
   logo: "/images/logo.png",
-  tagline: "Tu belleza natural realzada en Albacete",
-  description: "CENTRO DE ESTETICA AVANZADA LUMIÉRE es tu clínica de estética de referencia en Albacete, especializada en micropigmentación capilar y de cejas con resultados sorprendentemente naturales. Nuestro equipo de profesionales expertas como Noemí, Pilar y todo nuestro personal te ofrecen tratamientos faciales, corporales, depilación láser y cuidado de manos y pies con máximo cariño y profesionalidad. Con 4.7 estrellas en Google, nuestros clientes avalan la calidad de nuestros servicios.",
+  tagline: "Tu belleza, nuestra pasión en Tomelloso",
+  description: "Centro de Estética Avanzada Luisa Cobo es tu centro de referencia en Tomelloso, Ciudad Real, especializado en tratamientos faciales, corporales y de belleza con tecnología de última generación. Nuestro equipo de profesionales, liderado por Luisa, Marga y Andrea, te ofrece un trato excepcional y resultados increíbles avalados por nuestras 9 reseñas de 5 estrellas. Un espacio precioso y acogedor donde te sentirás cómoda desde el primer momento.",
   colors: {
-    primary: "#C9A86C",
-    secondary: "#2D2D2D",
-    accent: "#D4A574",
-    neutral: "#FAF8F5"
+    primary: "#6b592e",
+    secondary: "#181409",
+    accent: "#181409",
+    neutral: "#f3f2ee"
   },
-  phone: "601 50 78 96",
-  whatsapp: "+34601507896",
+  phone: "699 62 92 98",
+  whatsapp: "+34699629298",
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
   email: "",
   address: {
-    street: "C/ Bruselas, 02005 Albacete, España",
-    city: "Albacete",
-    province: "",
-    postalCode: "02005",
+    street: "C. Estación, 92, 13700 Tomelloso, Ciudad Real, España",
+    city: "Tomelloso",
+    province: "Ciudad Real",
+    postalCode: "13700",
     country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?cid=15803700972320115019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
-  googleMapsEmbed: "https://maps.google.com/maps?q=CENTRO%20DE%20ESTETICA%20AVANZADA%20LUMI%C3%89RE%20%4039.0059%2C-1.86733&z=16&output=embed",
+  googleMapsUrl: "https://maps.google.com/?cid=11727384400310501301&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Centro%20de%20Est%C3%A9tica%20Avanzada%20Luisa%20Cobo%20%4039.1481%2C-3.02812&z=16&output=embed",
   coordinates: {
-    lat: 39.0059,
-    lng: -1.86733
+    lat: 39.1481,
+    lng: -3.02812
   },
   schedule: [
     {
       days: "lunes - viernes",
-      hours: "10:00–19:00"
+      hours: "9:00–14:00, 16:00–20:00"
     },
     {
-      days: "sábado",
-      hours: "10:30–13:30"
-    },
-    {
-      days: "domingo",
+      days: "sábado - domingo",
       hours: "Cerrado"
     }
   ],
@@ -47,297 +43,307 @@ export const clinic = {
     tiktok: null
   },
   reviews: {
-    rating: 4.7,
-    count: 17,
-    url: "https://maps.google.com/?cid=15803700972320115019&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+    rating: 5,
+    count: 9,
+    url: "https://maps.google.com/?cid=11727384400310501301&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
     featured: [
       {
-        author: "felipe nevaado",
+        author: "Rosi Arias Martinez",
         rating: 5,
-        text: "Mi experiencia con este centro de estética fue inmejorable hace un mes acabé mi tratamiento de micropegtacion de la mano de Noemí y la verdad es que no pensaba que me iba a quedar tan bien el resultado fue sorprendentemente natural y el trato de Noemí fantástico, muy recomendable",
+        text: "Pongo 5 Estrellas pero es para poner el doble, el triple... Las chicas majisimas.\nTrato exceptional, Resultados increibles (muy sarisfactorios)\nLo recomiendo sin dudarlo.\nLuisa, Marga, Andrea... MARAVILLOSAS!!\nMuy Profesionales",
         date: "Hace 2 semanas"
       },
       {
-        author: "Vicen Vicen",
+        author: "Natalia",
         rating: 5,
-        text: "Yo me hice la micro pigmentación capilar con Noemí villar y muy contento con los resultados y con el trato de todos los trabajadores del centro lo recomiendo 100%",
+        text: "Trato excelente y muy profesional. El centro es precioso, el ambiente y las chicas son súper agradables te hacen sentir cómoda desde que entras.",
         date: "Hace 2 semanas"
       },
       {
-        author: "Centro Jesacu (Jessica Pérez)",
+        author: "Diana Sanz Casero",
         rating: 5,
-        text: "Un centro que ofrece infinidad de servicios y lo hacen con el máximo cariño y respeto. Super profesionales y super agradables. Totalmente recomendable 🥰❤️❤️",
-        date: "Hace 3 meses"
-      },
-      {
-        author: "Rafaela Castillo Romero",
-        rating: 5,
-        text: "Yo me hice la Micro y muy contento co Noé con su profesionalidad y sus consejos.resultados satifactorios la recomiendo",
+        text: "Centro muy profesional y con un trato amable y cercano al cliente. Recomendado 100%",
         date: "Hace 2 semanas"
       },
       {
-        author: "Cristina Escribano Sánchez",
+        author: "Rocío Granado",
         rating: 5,
-        text: "Me hice la micropigmentación con Pilar y el resultado es increíble, muy contenta, lo recomiendo 100%",
-        date: "Hace 1 mes"
+        text: "Muy buena experiencia, trato cercano y mucha profesionalidad.",
+        date: "Hace 2 años"
+      },
+      {
+        author: "beatriz bernardino casero",
+        rating: 5,
+        text: "Un centro muy acogedor y profesional! Lo recomiendo 100%",
+        date: "Hace 2 años"
       }
     ]
   },
   services: [
     {
-      id: "micropigmentacion-capilar",
-      name: "Micropigmentación Capilar",
-      description: "Recupera la densidad visual de tu cabello con nuestra técnica de micropigmentación capilar. Nuestras especialistas crean resultados sorprendentemente naturales que disimulan la alopecia y aportan densidad al cuero cabelludo. Tratamiento indoloro con pigmentos de máxima calidad y seguimiento personalizado.",
+      id: "tratamientos-faciales",
+      name: "Tratamientos Faciales",
+      description: "Cuidados personalizados para cada tipo de piel con productos premium y técnicas avanzadas. Desde hidratación profunda hasta tratamientos antiedad que devuelven luminosidad y firmeza a tu rostro. Resultados visibles desde la primera sesión que te harán sentir renovada.",
       benefits: [
-        "Resultados naturales inmediatos",
-        "Técnica no invasiva e indolora",
-        "Seguimiento y asesoramiento profesional"
+        "Piel hidratada y luminosa",
+        "Reducción visible de arrugas y líneas de expresión",
+        "Tratamiento personalizado según tu tipo de piel"
       ],
       icon: "Sparkles"
     },
     {
-      id: "micropigmentacion-cejas",
-      name: "Micropigmentación de Cejas",
-      description: "Diseñamos cejas perfectas adaptadas a tu rostro con técnicas de micropigmentación de última generación. Maquillaje semipermanente que realza tu mirada de forma natural, corrigiendo asimetrías y aportando densidad. Resultados increíbles que duran entre 1 y 3 años.",
-      benefits: [
-        "Diseño personalizado según tu rostro",
-        "Aspecto natural y definido",
-        "Ahorra tiempo en tu rutina diaria"
-      ],
-      icon: "Eye"
-    },
-    {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales Avanzados",
-      description: "Cuidados personalizados para cada tipo de piel con productos premium y tecnología de vanguardia. Desde hidratación profunda hasta tratamientos antiedad, diseñamos el protocolo perfecto para tu piel. Recupera la luminosidad y juventud de tu rostro con resultados visibles desde la primera sesión.",
-      benefits: [
-        "Protocolos personalizados para tu piel",
-        "Productos de alta gama",
-        "Resultados visibles y duraderos"
-      ],
-      icon: "Flower2"
-    },
-    {
       id: "depilacion-laser",
-      name: "Depilación Láser Definitiva",
-      description: "Olvídate del vello para siempre con nuestra tecnología láser de última generación. Tratamiento seguro, eficaz y prácticamente indoloro para todo tipo de pieles. Nuestras especialistas diseñan el plan perfecto según tu fototipo y características del vello.",
+      name: "Depilación Láser",
+      description: "Eliminación definitiva del vello con tecnología láser de última generación. Olvídate de la cera y las cuchillas para siempre con un método seguro, eficaz y prácticamente indoloro. Resultados duraderos en todas las zonas del cuerpo.",
       benefits: [
-        "Eliminación definitiva del vello",
-        "Tecnología avanzada y segura",
-        "Apto para todo tipo de pieles"
+        "Eliminación permanente del vello",
+        "Piel suave y sin irritaciones",
+        "Tecnología de última generación"
       ],
       icon: "Zap"
     },
     {
       id: "tratamientos-corporales",
       name: "Tratamientos Corporales",
-      description: "Moldea tu silueta con nuestros tratamientos reductores, reafirmantes y anticelulíticos. Combinamos las técnicas más avanzadas con productos profesionales para conseguir resultados reales. Recupera la firmeza y elasticidad de tu piel con protocolos personalizados.",
+      description: "Tratamientos reductores, reafirmantes y anticelulíticos diseñados para esculpir tu silueta. Utilizamos las técnicas más avanzadas para combatir la celulitis, reducir volumen y mejorar la firmeza de tu piel. Un enfoque integral para que luzcas el cuerpo que deseas.",
       benefits: [
-        "Reducción visible de volumen",
-        "Mejora la firmeza y textura",
-        "Planes personalizados y efectivos"
+        "Reducción de celulitis y grasa localizada",
+        "Piel más firme y tonificada",
+        "Resultados medibles y duraderos"
       ],
       icon: "Heart"
     },
     {
+      id: "micropigmentacion",
+      name: "Micropigmentación",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Despierta perfecta cada mañana sin necesidad de maquillarte. Técnicas precisas que realzan tus rasgos respetando tu belleza natural.",
+      benefits: [
+        "Resultados naturales y duraderos",
+        "Ahorra tiempo en tu rutina diaria",
+        "Diseño personalizado según tus facciones"
+      ],
+      icon: "Eye"
+    },
+    {
       id: "manicura-pedicura",
       name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con técnicas profesionales y esmaltes de alta calidad. Desde manicuras clásicas hasta tratamientos de reconstrucción, mimamos tus manos y pies para que luzcan impecables. Acabados duraderos y perfectos.",
+      description: "Cuidado completo de manos y pies con esmaltes de alta calidad y técnicas profesionales. Desde manicuras clásicas hasta las últimas tendencias en nail art. Tus manos y pies lucirán impecables con un acabado perfecto que perdura.",
       benefits: [
+        "Uñas perfectas y cuidadas",
         "Esmaltes de larga duración",
-        "Cuidado integral de manos y pies",
-        "Acabado profesional impecable"
+        "Tratamientos hidratantes y reparadores"
       ],
       icon: "Hand"
     },
     {
       id: "extensiones-pestanas",
       name: "Extensiones de Pestañas",
-      description: "Consigue una mirada impactante con nuestras extensiones de pestañas pelo a pelo. Técnica personalizada que respeta la salud de tus pestañas naturales mientras aporta longitud, volumen y curvatura. Despierta cada día con una mirada de impacto sin necesidad de maquillaje.",
+      description: "Mirada impactante con extensiones pelo a pelo aplicadas con técnica profesional. Consigue unas pestañas largas, voluminosas y naturales sin necesidad de máscara. Resultados espectaculares que realzan tu mirada de forma elegante.",
       benefits: [
-        "Mirada intensa y natural",
-        "Técnica pelo a pelo respetuosa",
-        "Larga duración con mantenimiento"
+        "Mirada más intensa y expresiva",
+        "Aspecto natural y favorecedor",
+        "Larga duración con mantenimiento mínimo"
       ],
       icon: "Eye"
     },
     {
-      id: "micropigmentacion-labios",
-      name: "Micropigmentación de Labios",
-      description: "Realza y define tus labios con micropigmentación semipermanente. Corregimos asimetrías, aportamos color natural y definimos el contorno para unos labios perfectos las 24 horas. Resultados naturales que realzan tu belleza sin artificiosidad.",
+      id: "tratamientos-antiedad",
+      name: "Tratamientos Antiedad",
+      description: "Combate los signos del envejecimiento con nuestros tratamientos específicos que estimulan la producción de colágeno y elastina. Tecnología avanzada y activos de alta concentración para una piel más joven, firme y radiante.",
       benefits: [
-        "Color y definición permanente",
-        "Corrección de asimetrías",
-        "Aspecto natural y rejuvenecido"
+        "Reducción visible de arrugas",
+        "Piel más firme y elástica",
+        "Efecto lifting natural"
       ],
       icon: "Sparkles"
+    },
+    {
+      id: "masajes-relajantes",
+      name: "Masajes y Bienestar",
+      description: "Momentos de relajación y desconexión con masajes terapéuticos y relajantes. Libera tensiones, mejora la circulación y disfruta de un momento para ti en nuestro ambiente acogedor. Bienestar integral para cuerpo y mente.",
+      benefits: [
+        "Alivio del estrés y tensiones musculares",
+        "Mejora de la circulación",
+        "Sensación de bienestar completo"
+      ],
+      icon: "Flower2"
     }
   ],
   process: [
     {
       step: 1,
       title: "Contacta con Nosotras",
-      description: "Llámanos al 601 50 78 96 o escríbenos por WhatsApp para solicitar tu cita. Te atenderemos personalmente y resolveremos todas tus dudas sobre nuestros tratamientos de micropigmentación y estética avanzada."
+      description: "Llámanos al 699 62 92 98 o escríbenos por WhatsApp para reservar tu cita. Te atenderemos de forma personalizada y resolveremos todas tus dudas sobre nuestros tratamientos."
     },
     {
       step: 2,
       title: "Consulta Personalizada",
-      description: "En tu primera visita, nuestras especialistas analizan tus necesidades específicas y diseñan el tratamiento ideal para ti. Te explicamos el proceso completo, los resultados esperados y resolvemos todas tus preguntas con máximo detalle."
+      description: "En tu primera visita analizamos tus necesidades específicas y objetivos de belleza. Diseñamos un plan de tratamiento completamente personalizado con las técnicas y productos más adecuados para ti."
     },
     {
       step: 3,
       title: "Tratamiento Profesional",
-      description: "Realizamos tu tratamiento con técnicas avanzadas, productos premium y la máxima profesionalidad. Ya sea micropigmentación capilar, de cejas o cualquier otro servicio, trabajamos con precisión para conseguir resultados sorprendentemente naturales."
+      description: "Realizamos tu tratamiento con tecnología de última generación y productos premium en nuestro centro acogedor. Disfrutarás de un ambiente agradable donde te sentirás cómoda desde el primer momento."
     },
     {
       step: 4,
-      title: "Resultados y Seguimiento",
-      description: "Disfruta de resultados espectaculares desde el primer momento. Te proporcionamos seguimiento personalizado, consejos de cuidado y estamos disponibles para cualquier consulta. Tu satisfacción es nuestra mejor recompensa."
+      title: "Resultados Espectaculares",
+      description: "Disfruta de resultados visibles e increíbles que superarán tus expectativas. Te ofrecemos seguimiento personalizado y consejos profesionales para mantener y potenciar los beneficios de tu tratamiento."
     }
   ],
   whyUs: [
     {
-      title: "Valoración Excelente 4.7★",
-      description: "Nuestros 17 clientes en Google nos avalan con valoraciones de 5 estrellas. Destacan nuestros resultados naturales en micropigmentación, el trato profesional y cercano de todo el equipo, y la satisfacción total con los tratamientos realizados. Tu confianza es nuestro mejor logro.",
+      title: "Valoración 5 Estrellas",
+      description: "Nuestras 9 reseñas de 5 estrellas en Google avalan nuestro trabajo. Nuestras clientas destacan nuestro trato excepcional, resultados increíbles y satisfactorios, y la profesionalidad de todo el equipo. Una confianza que nos motiva cada día.",
       icon: "Sparkles"
     },
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Noemí y Pilar son expertas reconocidas en micropigmentación capilar y de cejas con resultados sorprendentemente naturales. Nuestras clientas destacan la profesionalidad, los consejos personalizados y los acabados increíbles que consiguen nuestras especialistas en cada tratamiento.",
-      icon: "Eye"
-    },
-    {
-      title: "Trato Personalizado y Cercano",
-      description: "Trabajamos con máximo cariño, respeto y profesionalidad en cada tratamiento. Nuestro equipo te acompaña desde la primera consulta hasta el seguimiento final, ofreciéndote asesoramiento experto y atención personalizada. Como dicen nuestros clientes: super profesionales y super agradables.",
+      title: "Equipo Profesional y Cercano",
+      description: "Luisa, Marga y Andrea forman un equipo maravilloso de profesionales que te harán sentir cómoda desde que entras. Combinamos años de experiencia con formación continua en las últimas técnicas de estética avanzada para ofrecerte los mejores resultados.",
       icon: "Heart"
     },
     {
-      title: "Infinidad de Servicios Avanzados",
-      description: "Desde micropigmentación capilar y de cejas hasta tratamientos faciales, corporales, depilación láser y cuidado de manos y pies. En CENTRO DE ESTETICA AVANZADA LUMIÉRE encontrarás todos los servicios de estética avanzada que necesitas en un solo lugar, con tecnología de última generación y productos premium.",
+      title: "Centro Acogedor y Moderno",
+      description: "Instalaciones preciosas con un ambiente agradable donde disfrutarás de cada visita. Hemos creado un espacio pensado para tu bienestar, con tecnología de última generación y todo el confort que mereces durante tus tratamientos.",
       icon: "Flower2"
+    },
+    {
+      title: "Resultados Visibles",
+      description: "Utilizamos productos premium y técnicas avanzadas que garantizan resultados espectaculares y medibles. Nuestras clientas confirman que los tratamientos superan sus expectativas, con mejoras visibles que potencian su belleza natural y autoestima.",
+      icon: "Zap"
     }
   ],
   team: [
     {
-      name: "Noemí",
-      role: "Especialista en Micropigmentación",
+      name: "Luisa",
+      role: "Directora y Esteticista",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En CENTRO DE ESTETICA AVANZADA LUMIÉRE nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Centro de Estética Avanzada Luisa Cobo nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
     },
     {
-      name: "Pilar",
-      role: "Especialista en Micropigmentación",
+      name: "Marga",
+      role: "Esteticista Profesional",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En CENTRO DE ESTETICA AVANZADA LUMIÉRE nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Centro de Estética Avanzada Luisa Cobo nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
+    },
+    {
+      name: "Andrea",
+      role: "Esteticista Profesional",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Centro de Estética Avanzada Luisa Cobo nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
     }
   ],
   gallery: [
     {
-      src: "/images/hero.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 1"
+      src: "/images/gallery/1.webp",
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 1"
     },
     {
       src: "/images/gallery/2.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 2"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 2"
     },
     {
       src: "/images/gallery/3.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 3"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 3"
     },
     {
-      src: "/images/gallery/4.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 4"
+      src: "/images/hero.webp",
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 4"
     },
     {
       src: "/images/gallery/5.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 5"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 5"
     },
     {
       src: "/images/gallery/6.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 6"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 6"
     },
     {
       src: "/images/gallery/7.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 7"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 7"
     },
     {
       src: "/images/gallery/8.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 8"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 8"
     },
     {
       src: "/images/gallery/9.webp",
-      alt: "CENTRO DE ESTETICA AVANZADA LUMIÉRE - Imagen 9"
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 9"
+    },
+    {
+      src: "/images/gallery/10.webp",
+      alt: "Centro de Estética Avanzada Luisa Cobo - Imagen 10"
     }
   ],
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación capilar?",
-      answer: "La micropigmentación capilar en CENTRO DE ESTETICA AVANZADA LUMIÉRE tiene una duración aproximada de 2 a 4 años, dependiendo del tipo de piel y cuidados posteriores. Nuestras especialistas utilizan pigmentos de máxima calidad que garantizan resultados naturales y duraderos. Recomendamos sesiones de retoque cada 1-2 años para mantener el resultado óptimo."
+      question: "¿Qué tratamientos ofrece el Centro de Estética Avanzada Luisa Cobo?",
+      answer: "En nuestro centro de Tomelloso ofrecemos una amplia gama de tratamientos: faciales personalizados, depilación láser definitiva, tratamientos corporales reductores y reafirmantes, micropigmentación, manicura y pedicura, extensiones de pestañas y masajes relajantes. Todos nuestros servicios utilizan tecnología avanzada y productos premium para garantizar resultados excepcionales."
     },
     {
-      question: "¿La micropigmentación de cejas es dolorosa?",
-      answer: "No, la micropigmentación de cejas en nuestra clínica es prácticamente indolora. Aplicamos anestesia tópica antes del tratamiento para garantizar tu comodidad total durante el proceso. Nuestras clientas, como puedes ver en nuestras reseñas, destacan el trato profesional y cuidadoso de nuestras especialistas Noemí y Pilar, que trabajan con máxima delicadeza."
+      question: "¿Cómo puedo reservar una cita?",
+      answer: "Reservar tu cita es muy sencillo. Puedes llamarnos directamente al 699 62 92 98 o contactarnos por WhatsApp. Nuestro equipo te atenderá personalmente para encontrar el mejor horario según tu disponibilidad y resolver cualquier duda sobre nuestros tratamientos."
     },
     {
-      question: "¿Qué diferencia hay entre micropigmentación y microblading?",
-      answer: "Ambas técnicas crean resultados naturales en cejas, pero la micropigmentación utiliza un dermógrafo eléctrico que deposita el pigmento de forma más precisa y uniforme, mientras que el microblading usa cuchillas manuales. En CENTRO DE ESTETICA AVANZADA LUMIÉRE trabajamos con micropigmentación avanzada que ofrece mayor durabilidad, resultados más naturales y menos invasividad para tu piel."
+      question: "¿Los tratamientos son seguros y profesionales?",
+      answer: "Absolutamente. En el Centro de Estética Avanzada Luisa Cobo contamos con profesionales altamente cualificadas y utilizamos equipos de última generación homologados. Nuestras 9 reseñas de 5 estrellas en Google avalan nuestro trato excepcional y la satisfacción de nuestras clientas con los resultados obtenidos."
     },
     {
-      question: "¿Cuántas sesiones necesito de depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 10 sesiones de depilación láser para conseguir la eliminación definitiva del vello, dependiendo de la zona, tipo de piel y características del vello. En CENTRO DE ESTETICA AVANZADA LUMIÉRE realizamos un estudio personalizado en tu primera consulta y diseñamos un plan adaptado a tus necesidades específicas con nuestra tecnología de última generación."
+      question: "¿Cuánto tiempo dura cada tratamiento?",
+      answer: "La duración varía según el tratamiento elegido. Los tratamientos faciales suelen durar entre 60-90 minutos, la depilación láser de 15 a 60 minutos según la zona, y los tratamientos corporales entre 45-90 minutos. Durante tu consulta personalizada te informaremos con exactitud sobre la duración de tu tratamiento específico."
     },
     {
-      question: "¿Cuánto tiempo dura un tratamiento facial?",
-      answer: "Los tratamientos faciales en nuestra clínica de Albacete tienen una duración aproximada de 60 a 90 minutos, dependiendo del protocolo específico que necesite tu piel. Incluyen limpieza profunda, exfoliación, mascarillas personalizadas y masaje facial. Te recomendaremos la frecuencia ideal según tus objetivos: hidratación, antiedad o luminosidad."
+      question: "¿Cuándo veré los resultados de mi tratamiento?",
+      answer: "Muchos de nuestros tratamientos faciales ofrecen resultados visibles desde la primera sesión, con piel más luminosa e hidratada. Los tratamientos corporales y la depilación láser requieren varias sesiones para obtener resultados óptimos y duraderos. En tu consulta inicial estableceremos expectativas realistas según tu tratamiento y objetivos personales."
     },
     {
-      question: "¿Ofrecen planes de financiación?",
-      answer: "Sí, en CENTRO DE ESTETICA AVANZADA LUMIÉRE queremos que accedas a nuestros tratamientos de estética avanzada sin preocupaciones. Ofrecemos diferentes opciones de pago y planes personalizados para tratamientos como micropigmentación o depilación láser. Consúltanos en el 601 50 78 96 y te informaremos de las mejores opciones para ti."
+      question: "¿Ofrecen tratamientos personalizados?",
+      answer: "Sí, la personalización es nuestra seña de identidad. En el Centro de Estética Avanzada Luisa Cobo analizamos tu tipo de piel, necesidades específicas y objetivos para diseñar un plan de tratamiento único para ti. No hay dos clientas iguales, por eso cada protocolo se adapta completamente a tus características individuales."
     },
     {
-      question: "¿Qué cuidados necesita la micropigmentación después del tratamiento?",
-      answer: "Después de tu micropigmentación en nuestra clínica, te proporcionamos instrucciones detalladas de cuidado post-tratamiento. Es fundamental mantener la zona limpia y seca, evitar exposición solar directa durante las primeras semanas, no mojar excesivamente la zona y aplicar la crema cicatrizante que te facilitamos. Nuestro equipo te hace seguimiento personalizado para garantizar una perfecta cicatrización y resultados óptimos."
+      question: "¿Dónde está ubicado el centro?",
+      answer: "Nuestro centro está ubicado en Tomelloso, Ciudad Real. Contamos con instalaciones preciosas y acogedoras donde te sentirás cómoda desde que entras. El ambiente agradable y profesional que hemos creado hace que cada visita sea una experiencia de bienestar completa."
     },
     {
-      question: "¿Por qué elegir CENTRO DE ESTETICA AVANZADA LUMIÉRE?",
-      answer: "Somos el centro de estética mejor valorado de Albacete con 4.7 estrellas en Google y 17 reseñas de clientes satisfechos. Nuestras especialistas como Noemí y Pilar son expertas en micropigmentación con resultados sorprendentemente naturales. Ofrecemos infinidad de servicios con máximo cariño, respeto y profesionalidad. Como dicen nuestros clientes: resultados satisfactorios 100% recomendables."
+      question: "¿Qué opinan las clientas del centro?",
+      answer: "Estamos muy orgullosas de nuestras valoraciones. Tenemos 5 estrellas en Google con 9 reseñas donde nuestras clientas destacan el trato excepcional, los resultados increíbles y satisfactorios, la profesionalidad del equipo y el ambiente acogedor del centro. Muchas nos recomiendan sin dudarlo y valoran especialmente la cercanía y amabilidad de Luisa, Marga y Andrea."
     }
   ],
   seo: {
-    titleTemplate: "%s | CENTRO DE ESTETICA AVANZADA LUMIÉRE",
-    defaultTitle: "Centro de Estética Avanzada Lumiére | Albacete",
-    defaultDescription: "Centro de estética en Albacete especializado en micropigmentación capilar y de cejas. Tratamientos faciales, depilación láser y corporales. 4.7★ en Google. ☎ 601 50 78 96",
+    titleTemplate: "%s | Centro de Estética Avanzada Luisa Cobo",
+    defaultTitle: "Centro Estética Avanzada Luisa Cobo | Tomelloso",
+    defaultDescription: "Centro de estética en Tomelloso con 5⭐ en Google. Tratamientos faciales, depilación láser, corporales y micropigmentación. Resultados visibles. ☎️ 699 62 92 98",
     keywords: [
-      "micropigmentación Albacete",
-      "micropigmentación capilar Albacete",
-      "micropigmentación cejas Albacete",
-      "centro estética Albacete",
-      "Centro de Estetica Avanzada Lumiére",
-      "depilación láser Albacete",
-      "tratamientos faciales Albacete",
-      "estética avanzada Albacete",
-      "tratamientos corporales Albacete",
-      "manicura pedicura Albacete",
-      "extensiones pestañas Albacete",
-      "clínica estética Albacete"
+      "centro estética Tomelloso",
+      "esteticista Tomelloso",
+      "Centro de Estética Avanzada Luisa Cobo",
+      "tratamientos faciales Tomelloso",
+      "depilación láser Tomelloso",
+      "micropigmentación Tomelloso",
+      "tratamientos corporales Tomelloso",
+      "estética avanzada Ciudad Real",
+      "manicura pedicura Tomelloso",
+      "extensiones pestañas Tomelloso",
+      "centro belleza Tomelloso",
+      "tratamientos antiedad Tomelloso"
     ],
     ogImage: "/og-image.jpg"
   },
   legal: {
-    companyName: "CENTRO DE ESTETICA AVANZADA LUMIÉRE",
+    companyName: "Centro de Estética Avanzada Luisa Cobo",
     cif: "",
-    registeredAddress: "C/ Bruselas, 02005 Albacete, España, Albacete"
+    registeredAddress: "C. Estación, 92, 13700 Tomelloso, Ciudad Real, España, Tomelloso, Ciudad Real"
   },
   heroHeadline: [
     "Tu Centro de",
     "Belleza",
-    "en Albacete"
+    "en Tomelloso"
   ],
-  heroDescription: "En CENTRO DE ESTETICA AVANZADA LUMIÉRE transformamos tu belleza con tratamientos avanzados y resultados visibles. Especializados en micropigmentación capilar y de cejas, te ofrecemos una experiencia única en Albacete donde la profesionalidad se une al trato cercano y personalizado que mereces.",
-  specialty: "Micropigmentación Especializada",
+  heroDescription: "En el Centro de Estética Avanzada Luisa Cobo combinamos profesionalidad, cercanía y las técnicas más avanzadas para realzar tu belleza natural. Ubicados en Tomelloso, ofrecemos tratamientos personalizados con resultados visibles que superarán tus expectativas.",
+  specialty: "Estética Avanzada",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para realzar tu belleza natural?",
-  ctaDescription: "Solicita tu cita en CENTRO DE ESTETICA AVANZADA LUMIÉRE y descubre por qué somos el centro de estética mejor valorado de Albacete. Resultados naturales garantizados.",
+  ctaHeadline: "¿Lista para verte y sentirte radiante?",
+  ctaDescription: "Reserva tu cita en el Centro de Estética Avanzada Luisa Cobo y descubre por qué nuestras clientas nos valoran con 5 estrellas. Te esperamos en Tomelloso para diseñar juntas tu tratamiento ideal.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
