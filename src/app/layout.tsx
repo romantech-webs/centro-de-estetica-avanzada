@@ -90,12 +90,36 @@ export default function RootLayout({
           data-primary-color="#6b592e"
           defer
         ></script>
+      
+        <script dangerouslySetInnerHTML={{ __html: `window.__WIDGET_API_URL="http://localhost:3000";window.__PROJECT_ID="centro-de-estetica-avanzada";` }} />
+
+        <script
+          src="http://localhost:3000/widget.js"
+          data-project-name="Centro de Estética Avanzada Luisa Cobo"
+          data-api-url="http://localhost:3000"
+          data-project-id="centro-de-estetica-avanzada"
+          data-primary-color="#6b592e"
+          defer
+        ></script>
       </head>
       <body className="font-sans">
         <Header />
         <main>{children}</main>
         <Footer />
         <WhatsAppWidget />
+      
+        <script dangerouslySetInnerHTML={{ __html: `
+          (function(){
+            var sid=Math.random().toString(36).slice(2);
+            var api="http://localhost:3000/api/widget/track";
+            var pid="centro-de-estetica-avanzada";
+            function t(e){fetch(api,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({projectId:pid,event:e,sessionId:sid}),keepalive:true}).catch(function(){});}
+            t("page_view");
+            var scrolled=false;
+            window.addEventListener("scroll",function(){if(!scrolled&&window.scrollY/(document.body.scrollHeight-window.innerHeight)>0.5){scrolled=true;t("scroll_50");}});
+            document.addEventListener("click",function(e){if(e.target.closest("a[href^='tel:'],a[href^='mailto:'],button")){t("cta_click");}});
+          })();
+        ` }} />
       
         <script dangerouslySetInnerHTML={{ __html: `
           (function(){

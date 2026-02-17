@@ -2,7 +2,7 @@ export const clinic = {
   name: "Centro de Estética Avanzada Luisa Cobo",
   logo: "/images/logo.png",
   tagline: "Tu belleza, nuestra pasión en Tomelloso",
-  description: "Centro de Estética Avanzada Luisa Cobo es tu centro de referencia en Tomelloso, Ciudad Real, especializado en tratamientos faciales, corporales y de belleza con tecnología de última generación. Nuestro equipo de profesionales, liderado por Luisa, Marga y Andrea, te ofrece un trato excepcional y resultados increíbles avalados por nuestras 9 reseñas de 5 estrellas. Un espacio precioso y acogedor donde te sentirás cómoda desde el primer momento.",
+  description: "Centro de Estética Avanzada Luisa Cobo es tu centro de referencia en Tomelloso, Ciudad Real, con valoración de 5 estrellas. Luisa, Marga y Andrea forman un equipo de profesionales que ofrece tratamientos faciales personalizados, depilación láser de última generación, manicura y pedicura, tratamientos corporales reductores y micropigmentación. Un espacio acogedor donde la profesionalidad se une al trato cercano para ofrecerte resultados increíbles y visibles.",
   colors: {
     primary: "#6b592e",
     secondary: "#181409",
@@ -82,89 +82,89 @@ export const clinic = {
   services: [
     {
       id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel con productos premium y técnicas avanzadas. Desde hidratación profunda hasta tratamientos antiedad que devuelven luminosidad y firmeza a tu rostro. Resultados visibles desde la primera sesión que te harán sentir renovada.",
+      name: "Tratamientos Faciales Personalizados",
+      description: "Diseñamos protocolos faciales únicos adaptados a tu tipo de piel y necesidades específicas. Combinamos tecnología avanzada con productos premium para conseguir una piel radiante, hidratada y rejuvenecida. Cada tratamiento es una experiencia de cuidado profesional con resultados visibles desde la primera sesión.",
       benefits: [
-        "Piel hidratada y luminosa",
+        "Hidratación profunda y luminosidad inmediata",
         "Reducción visible de arrugas y líneas de expresión",
-        "Tratamiento personalizado según tu tipo de piel"
+        "Protocolo personalizado según tu tipo de piel"
       ],
       icon: "Sparkles"
     },
     {
       id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Olvídate de la cera y las cuchillas para siempre con un método seguro, eficaz y prácticamente indoloro. Resultados duraderos en todas las zonas del cuerpo.",
+      name: "Depilación Láser Definitiva",
+      description: "Tecnología láser de última generación para una eliminación definitiva del vello de forma segura y eficaz. Nos adaptamos a todos los tipos de piel y vello, garantizando resultados duraderos con el máximo confort. Olvídate de la cera y las cuchillas para siempre.",
       benefits: [
-        "Eliminación permanente del vello",
-        "Piel suave y sin irritaciones",
-        "Tecnología de última generación"
+        "Eliminación definitiva del vello no deseado",
+        "Tratamiento rápido, seguro y prácticamente indoloro",
+        "Resultados progresivos y permanentes"
       ],
       icon: "Zap"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos diseñados para esculpir tu silueta. Utilizamos las técnicas más avanzadas para combatir la celulitis, reducir volumen y mejorar la firmeza de tu piel. Un enfoque integral para que luzcas el cuerpo que deseas.",
+      id: "manicura-pedicura",
+      name: "Manicura y Pedicura Profesional",
+      description: "Cuidado completo de manos y pies con técnicas profesionales y esmaltes de alta calidad de larga duración. Desde manicuras clásicas hasta tratamientos de belleza avanzados para uñas, conseguimos que tus manos y pies luzcan impecables. Un momento de relax y belleza que te mereces.",
       benefits: [
-        "Reducción de celulitis y grasa localizada",
-        "Piel más firme y tonificada",
-        "Resultados medibles y duraderos"
+        "Uñas perfectas con acabados de larga duración",
+        "Cuidado integral de cutículas, piel y uñas",
+        "Amplia gama de colores y técnicas de decoración"
+      ],
+      icon: "Hand"
+    },
+    {
+      id: "tratamientos-corporales",
+      name: "Tratamientos Corporales Reductores",
+      description: "Protocolos corporales avanzados para reducir volumen, combatir la celulitis y reafirmar la piel. Utilizamos las técnicas más innovadoras y efectivas para esculpir tu silueta y mejorar la textura de tu piel. Resultados visibles que transforman tu figura y aumentan tu confianza.",
+      benefits: [
+        "Reducción efectiva de grasa localizada y celulitis",
+        "Reafirmación y tonificación de la piel",
+        "Mejora visible del contorno corporal"
       ],
       icon: "Heart"
     },
     {
       id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y armoniosos. Despierta perfecta cada mañana sin necesidad de maquillarte. Técnicas precisas que realzan tus rasgos respetando tu belleza natural.",
+      name: "Micropigmentación Profesional",
+      description: "Maquillaje semipermanente para cejas, labios y ojos con resultados naturales y duraderos. Diseñamos cada micropigmentación de forma personalizada para realzar tu belleza natural respetando tus rasgos. Despierta perfecta cada mañana sin necesidad de maquillarte.",
       benefits: [
-        "Resultados naturales y duraderos",
-        "Ahorra tiempo en tu rutina diaria",
-        "Diseño personalizado según tus facciones"
+        "Resultados naturales y armoniosos con tus facciones",
+        "Ahorro de tiempo en tu rutina diaria de maquillaje",
+        "Duración de 1 a 3 años según la zona tratada"
       ],
       icon: "Eye"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad y técnicas profesionales. Desde manicuras clásicas hasta las últimas tendencias en nail art. Tus manos y pies lucirán impecables con un acabado perfecto que perdura.",
-      benefits: [
-        "Uñas perfectas y cuidadas",
-        "Esmaltes de larga duración",
-        "Tratamientos hidratantes y reparadores"
-      ],
-      icon: "Hand"
-    },
-    {
       id: "extensiones-pestanas",
       name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones pelo a pelo aplicadas con técnica profesional. Consigue unas pestañas largas, voluminosas y naturales sin necesidad de máscara. Resultados espectaculares que realzan tu mirada de forma elegante.",
+      description: "Mirada impactante y expresiva con extensiones de pestañas pelo a pelo aplicadas con técnica profesional. Conseguimos un efecto natural o voluminoso según tus preferencias, realzando tu mirada sin necesidad de máscara de pestañas. Calidad y durabilidad garantizadas.",
       benefits: [
-        "Mirada más intensa y expresiva",
-        "Aspecto natural y favorecedor",
-        "Larga duración con mantenimiento mínimo"
+        "Mirada intensa y expresiva las 24 horas",
+        "Aplicación pelo a pelo para resultado natural",
+        "Duración de 3 a 4 semanas con mantenimiento"
       ],
       icon: "Eye"
     },
     {
       id: "tratamientos-antiedad",
-      name: "Tratamientos Antiedad",
-      description: "Combate los signos del envejecimiento con nuestros tratamientos específicos que estimulan la producción de colágeno y elastina. Tecnología avanzada y activos de alta concentración para una piel más joven, firme y radiante.",
+      name: "Tratamientos Antiedad Avanzados",
+      description: "Combate los signos del envejecimiento con nuestros protocolos antiedad de última generación. Combinamos diferentes técnicas y tecnologías para estimular la producción de colágeno, mejorar la firmeza y reducir arrugas. Recupera la juventud de tu piel con tratamientos científicamente probados.",
       benefits: [
-        "Reducción visible de arrugas",
-        "Piel más firme y elástica",
-        "Efecto lifting natural"
+        "Reducción visible de arrugas y flacidez",
+        "Estimulación natural de colágeno y elastina",
+        "Piel más firme, tersa y rejuvenecida"
       ],
       icon: "Sparkles"
     },
     {
-      id: "masajes-relajantes",
-      name: "Masajes y Bienestar",
-      description: "Momentos de relajación y desconexión con masajes terapéuticos y relajantes. Libera tensiones, mejora la circulación y disfruta de un momento para ti en nuestro ambiente acogedor. Bienestar integral para cuerpo y mente.",
+      id: "tratamientos-hidratacion",
+      name: "Tratamientos de Hidratación Profunda",
+      description: "Devuelve la vitalidad a tu piel con nuestros tratamientos de hidratación intensiva facial y corporal. Utilizamos activos de alta penetración que restauran los niveles óptimos de hidratación desde las capas más profundas. Piel suave, elástica y luminosa al instante.",
       benefits: [
-        "Alivio del estrés y tensiones musculares",
-        "Mejora de la circulación",
-        "Sensación de bienestar completo"
+        "Hidratación profunda y duradera",
+        "Mejora inmediata de textura y luminosidad",
+        "Prevención del envejecimiento prematuro"
       ],
       icon: "Flower2"
     }
@@ -173,56 +173,56 @@ export const clinic = {
     {
       step: 1,
       title: "Contacta con Nosotras",
-      description: "Llámanos al 699 62 92 98 o escríbenos por WhatsApp para reservar tu cita. Te atenderemos de forma personalizada y resolveremos todas tus dudas sobre nuestros tratamientos."
+      description: "Llámanos al 699 62 92 98 o escríbenos por WhatsApp para solicitar tu cita. Nuestro equipo te atenderá de forma cercana y resolverá todas tus dudas sobre nuestros tratamientos de estética avanzada."
     },
     {
       step: 2,
-      title: "Consulta Personalizada",
-      description: "En tu primera visita analizamos tus necesidades específicas y objetivos de belleza. Diseñamos un plan de tratamiento completamente personalizado con las técnicas y productos más adecuados para ti."
+      title: "Diagnóstico Personalizado",
+      description: "En tu primera visita a nuestro centro en Tomelloso, analizamos tu piel o zona a tratar en profundidad. Luisa, Marga o Andrea diseñarán un protocolo de tratamiento personalizado adaptado a tus necesidades y objetivos específicos."
     },
     {
       step: 3,
       title: "Tratamiento Profesional",
-      description: "Realizamos tu tratamiento con tecnología de última generación y productos premium en nuestro centro acogedor. Disfrutarás de un ambiente agradable donde te sentirás cómoda desde el primer momento."
+      description: "Realizamos tu tratamiento con tecnología de última generación y productos premium en un ambiente acogedor y profesional. Te sentirás cómoda y relajada mientras trabajamos para conseguir los mejores resultados posibles."
     },
     {
       step: 4,
-      title: "Resultados Espectaculares",
-      description: "Disfruta de resultados visibles e increíbles que superarán tus expectativas. Te ofrecemos seguimiento personalizado y consejos profesionales para mantener y potenciar los beneficios de tu tratamiento."
+      title: "Resultados Increíbles",
+      description: "Disfruta de resultados visibles y satisfactorios que superarán tus expectativas. Te ofrecemos seguimiento personalizado y recomendaciones de cuidado en casa para mantener y potenciar los resultados de tu tratamiento."
     }
   ],
   whyUs: [
     {
-      title: "Valoración 5 Estrellas",
-      description: "Nuestras 9 reseñas de 5 estrellas en Google avalan nuestro trabajo. Nuestras clientas destacan nuestro trato excepcional, resultados increíbles y satisfactorios, y la profesionalidad de todo el equipo. Una confianza que nos motiva cada día.",
+      title: "Valoración 5 Estrellas en Google",
+      description: "Nuestras 9 reseñas en Google con puntuación perfecta de 5 estrellas avalan nuestro trabajo. Nuestras clientas destacan los resultados increíbles, el trato excepcional y la profesionalidad de todo el equipo. Tu confianza es nuestro mejor reconocimiento.",
       icon: "Sparkles"
     },
     {
       title: "Equipo Profesional y Cercano",
-      description: "Luisa, Marga y Andrea forman un equipo maravilloso de profesionales que te harán sentir cómoda desde que entras. Combinamos años de experiencia con formación continua en las últimas técnicas de estética avanzada para ofrecerte los mejores resultados.",
+      description: "Luisa, Marga y Andrea forman un equipo de profesionales expertas que combinan conocimiento técnico avanzado con un trato amable y cercano. Te haremos sentir cómoda desde que entras y trabajaremos para superar tus expectativas en cada visita.",
       icon: "Heart"
     },
     {
-      title: "Centro Acogedor y Moderno",
-      description: "Instalaciones preciosas con un ambiente agradable donde disfrutarás de cada visita. Hemos creado un espacio pensado para tu bienestar, con tecnología de última generación y todo el confort que mereces durante tus tratamientos.",
-      icon: "Flower2"
+      title: "Tecnología de Última Generación",
+      description: "Invertimos constantemente en la tecnología más avanzada del sector de la estética para ofrecerte tratamientos efectivos, seguros y con resultados visibles. Combinamos innovación tecnológica con productos premium para garantizar la máxima eficacia.",
+      icon: "Zap"
     },
     {
-      title: "Resultados Visibles",
-      description: "Utilizamos productos premium y técnicas avanzadas que garantizan resultados espectaculares y medibles. Nuestras clientas confirman que los tratamientos superan sus expectativas, con mejoras visibles que potencian su belleza natural y autoestima.",
-      icon: "Zap"
+      title: "Centro Acogedor en Tomelloso",
+      description: "Nuestras instalaciones son preciosas, modernas y están diseñadas para que te sientas relajada y cómoda. Creamos un ambiente agradable donde cada tratamiento se convierte en una experiencia de bienestar y cuidado personal que te mereces.",
+      icon: "Flower2"
     }
   ],
   team: [
     {
       name: "Luisa",
-      role: "Directora y Esteticista",
+      role: "Directora y Esteticista Profesional",
       image: "/images/team/placeholder.jpg",
       bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Centro de Estética Avanzada Luisa Cobo nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
     },
     {
       name: "Marga",
-      role: "Esteticista Profesional",
+      role: "Esteticista Especializada",
       image: "/images/team/placeholder.jpg",
       bio: "Profesionales apasionadas por la belleza y el cuidado personal. En Centro de Estética Avanzada Luisa Cobo nos dedicamos a realzar la belleza natural de cada clienta con tratamientos de calidad."
     },
@@ -277,52 +277,52 @@ export const clinic = {
   ],
   faq: [
     {
-      question: "¿Qué tratamientos ofrece el Centro de Estética Avanzada Luisa Cobo?",
-      answer: "En nuestro centro de Tomelloso ofrecemos una amplia gama de tratamientos: faciales personalizados, depilación láser definitiva, tratamientos corporales reductores y reafirmantes, micropigmentación, manicura y pedicura, extensiones de pestañas y masajes relajantes. Todos nuestros servicios utilizan tecnología avanzada y productos premium para garantizar resultados excepcionales."
+      question: "¿Qué hace especial al Centro de Estética Avanzada Luisa Cobo?",
+      answer: "Nuestro centro destaca por la combinación de profesionalidad, trato cercano y resultados increíbles, como reflejan nuestras 9 reseñas con valoración de 5 estrellas en Google. Contamos con un equipo de profesionales expertas (Luisa, Marga y Andrea) que personalizan cada tratamiento según tus necesidades. Además, nuestras instalaciones son acogedoras y modernas, creando un ambiente donde te sentirás cómoda desde que entras."
     },
     {
-      question: "¿Cómo puedo reservar una cita?",
-      answer: "Reservar tu cita es muy sencillo. Puedes llamarnos directamente al 699 62 92 98 o contactarnos por WhatsApp. Nuestro equipo te atenderá personalmente para encontrar el mejor horario según tu disponibilidad y resolver cualquier duda sobre nuestros tratamientos."
+      question: "¿Qué tratamientos faciales ofrecéis en Tomelloso?",
+      answer: "En el Centro de Estética Avanzada Luisa Cobo ofrecemos una amplia gama de tratamientos faciales personalizados: hidratación profunda, protocolos antiedad, tratamientos de luminosidad y cuidados específicos para cada tipo de piel. Utilizamos tecnología avanzada y productos premium para conseguir resultados visibles desde la primera sesión. Cada tratamiento se diseña específicamente para ti tras un análisis detallado de tu piel."
     },
     {
-      question: "¿Los tratamientos son seguros y profesionales?",
-      answer: "Absolutamente. En el Centro de Estética Avanzada Luisa Cobo contamos con profesionales altamente cualificadas y utilizamos equipos de última generación homologados. Nuestras 9 reseñas de 5 estrellas en Google avalan nuestro trato excepcional y la satisfacción de nuestras clientas con los resultados obtenidos."
+      question: "¿Cuántas sesiones de depilación láser necesito?",
+      answer: "El número de sesiones de depilación láser varía según la zona a tratar, tipo de piel y características del vello, pero generalmente se necesitan entre 6 y 8 sesiones para conseguir resultados óptimos. En tu primera consulta en nuestro centro de Tomelloso, evaluaremos tu caso particular y te diseñaremos un plan personalizado. La depilación láser es definitiva y los resultados son permanentes una vez completado el tratamiento."
     },
     {
-      question: "¿Cuánto tiempo dura cada tratamiento?",
-      answer: "La duración varía según el tratamiento elegido. Los tratamientos faciales suelen durar entre 60-90 minutos, la depilación láser de 15 a 60 minutos según la zona, y los tratamientos corporales entre 45-90 minutos. Durante tu consulta personalizada te informaremos con exactitud sobre la duración de tu tratamiento específico."
+      question: "¿La micropigmentación duele? ¿Cuánto dura?",
+      answer: "La micropigmentación que realizamos en el Centro de Estética Avanzada Luisa Cobo es prácticamente indolora gracias a la aplicación de anestesia tópica antes del tratamiento. La duración varía según la zona: las cejas duran entre 1 y 2 años, los labios entre 2 y 3 años, dependiendo de tu tipo de piel y cuidados posteriores. Los resultados son naturales y armoniosos, diseñados específicamente para realzar tu belleza."
     },
     {
-      question: "¿Cuándo veré los resultados de mi tratamiento?",
-      answer: "Muchos de nuestros tratamientos faciales ofrecen resultados visibles desde la primera sesión, con piel más luminosa e hidratada. Los tratamientos corporales y la depilación láser requieren varias sesiones para obtener resultados óptimos y duraderos. En tu consulta inicial estableceremos expectativas realistas según tu tratamiento y objetivos personales."
+      question: "¿Cómo puedo pedir cita en vuestro centro de Tomelloso?",
+      answer: "Pedir cita es muy sencillo: puedes llamarnos directamente al 699 62 92 98 o contactarnos por WhatsApp en el mismo número. Nuestro equipo te atenderá de forma cercana y profesional, te informará sobre el tratamiento que te interesa y agendará tu cita en el horario que mejor te convenga. Estamos en Tomelloso, Ciudad Real, y estaremos encantadas de recibirte."
     },
     {
-      question: "¿Ofrecen tratamientos personalizados?",
-      answer: "Sí, la personalización es nuestra seña de identidad. En el Centro de Estética Avanzada Luisa Cobo analizamos tu tipo de piel, necesidades específicas y objetivos para diseñar un plan de tratamiento único para ti. No hay dos clientas iguales, por eso cada protocolo se adapta completamente a tus características individuales."
+      question: "¿Qué resultados puedo esperar de los tratamientos corporales?",
+      answer: "Nuestros tratamientos corporales reductores y reafirmantes ofrecen resultados visibles y satisfactorios en la reducción de volumen, eliminación de celulitis y mejora de la firmeza de la piel. Los resultados varían según cada persona, pero nuestras clientas reportan cambios notables en su silueta y textura de piel. En el Centro de Estética Avanzada Luisa Cobo trabajamos con tecnología avanzada y te ofrecemos un seguimiento personalizado para maximizar los resultados."
     },
     {
-      question: "¿Dónde está ubicado el centro?",
-      answer: "Nuestro centro está ubicado en Tomelloso, Ciudad Real. Contamos con instalaciones preciosas y acogedoras donde te sentirás cómoda desde que entras. El ambiente agradable y profesional que hemos creado hace que cada visita sea una experiencia de bienestar completa."
+      question: "¿Son seguros los tratamientos de estética avanzada?",
+      answer: "Todos los tratamientos que realizamos en nuestro centro son completamente seguros y están realizados por profesionales cualificadas con amplia experiencia. Utilizamos tecnología de última generación homologada y productos de alta calidad certificados. Antes de cualquier tratamiento, realizamos un diagnóstico personalizado para asegurarnos de que es adecuado para ti y te explicamos todo el proceso detalladamente."
     },
     {
-      question: "¿Qué opinan las clientas del centro?",
-      answer: "Estamos muy orgullosas de nuestras valoraciones. Tenemos 5 estrellas en Google con 9 reseñas donde nuestras clientas destacan el trato excepcional, los resultados increíbles y satisfactorios, la profesionalidad del equipo y el ambiente acogedor del centro. Muchas nos recomiendan sin dudarlo y valoran especialmente la cercanía y amabilidad de Luisa, Marga y Andrea."
+      question: "¿Ofrecéis planes de tratamiento personalizados?",
+      answer: "Sí, en el Centro de Estética Avanzada Luisa Cobo todos nuestros tratamientos son personalizados. No trabajamos con protocolos estándar, sino que diseñamos cada plan según tus necesidades específicas, tipo de piel, objetivos y presupuesto. Durante tu primera consulta en nuestro centro de Tomelloso, analizaremos tu caso en detalle y te propondremos el tratamiento o combinación de tratamientos más efectivo para conseguir los resultados que deseas."
     }
   ],
   seo: {
     titleTemplate: "%s | Centro de Estética Avanzada Luisa Cobo",
-    defaultTitle: "Centro Estética Avanzada Luisa Cobo | Tomelloso",
-    defaultDescription: "Centro de estética en Tomelloso con 5⭐ en Google. Tratamientos faciales, depilación láser, corporales y micropigmentación. Resultados visibles. ☎️ 699 62 92 98",
+    defaultTitle: "Centro de Estética Avanzada Luisa Cobo | Tomelloso",
+    defaultDescription: "Centro de estética en Tomelloso con 5⭐. Tratamientos faciales, depilación láser, micropigmentación y tratamientos corporales. Equipo profesional. ☎️ 699 62 92 98",
     keywords: [
       "centro estética Tomelloso",
       "esteticista Tomelloso",
-      "Centro de Estética Avanzada Luisa Cobo",
-      "tratamientos faciales Tomelloso",
       "depilación láser Tomelloso",
+      "tratamientos faciales Tomelloso",
       "micropigmentación Tomelloso",
+      "Centro de Estética Avanzada Luisa Cobo",
       "tratamientos corporales Tomelloso",
-      "estética avanzada Ciudad Real",
       "manicura pedicura Tomelloso",
+      "estética avanzada Ciudad Real",
       "extensiones pestañas Tomelloso",
       "centro belleza Tomelloso",
       "tratamientos antiedad Tomelloso"
@@ -339,11 +339,11 @@ export const clinic = {
     "Belleza",
     "en Tomelloso"
   ],
-  heroDescription: "En el Centro de Estética Avanzada Luisa Cobo combinamos profesionalidad, cercanía y las técnicas más avanzadas para realzar tu belleza natural. Ubicados en Tomelloso, ofrecemos tratamientos personalizados con resultados visibles que superarán tus expectativas.",
-  specialty: "Estética Avanzada",
+  heroDescription: "En el Centro de Estética Avanzada Luisa Cobo encontrarás un equipo de profesionales comprometidas con tu belleza y bienestar. Ubicadas en Tomelloso, ofrecemos tratamientos faciales y corporales con tecnología avanzada, depilación láser definitiva y servicios de belleza integral en un ambiente precioso y acogedor que te hará sentir cómoda desde el primer momento.",
+  specialty: "Estética Avanzada Personalizada",
   ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para verte y sentirte radiante?",
-  ctaDescription: "Reserva tu cita en el Centro de Estética Avanzada Luisa Cobo y descubre por qué nuestras clientas nos valoran con 5 estrellas. Te esperamos en Tomelloso para diseñar juntas tu tratamiento ideal.",
+  ctaHeadline: "¿Lista para ver resultados increíbles?",
+  ctaDescription: "Solicita tu cita en el Centro de Estética Avanzada Luisa Cobo y descubre por qué nuestras clientas nos valoran con 5 estrellas. Te esperamos en Tomelloso para diseñar el tratamiento perfecto para ti.",
   statsLabel: "Clientas",
   schemaType: "BeautySalon",
   sectionCopy: {
